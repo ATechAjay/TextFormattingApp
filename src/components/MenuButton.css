@@ -1,0 +1,16 @@
+.menuContainer {
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          gap: 10px;
+          background: grey;
+          padding: 1.5rem 0;
+}
+
+.menuContainer button {
+          cursor: pointer;
+          height: 3rem;
+          width: 3rem;
+          display: grid;
+          place-items: center;
+}
