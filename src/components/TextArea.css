@@ -20,4 +20,5 @@
           overflow-x: hidden;
           color: #000;
           max-width: 70rem;
+          resize: none;
 }
