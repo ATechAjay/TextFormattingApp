@@ -6,7 +6,7 @@ function Count(props) {
     return (
         <div className="countContainer">
             <div className="wordCountContainer">
-                <p>Words: <span className="wordCountNumber">{props.count}</span></p>
+                <p>Words: <span className="wordCountNumber">{props.wordCount}</span></p>
             </div>
             <span className="verticalLine"></span>
             <div className="letterCountContainer">

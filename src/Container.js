@@ -8,8 +8,14 @@ import { useState } from "react";
 
 function Container() {
     const [count, setCount] = useState(0);
+    const [wordCount, setWordCount] = useState(0);
+
     const handleCount = (event) => {
         setCount(event.target.value.length);
+        let str = event.target.value;
+        let arr = str.split(' ');
+        let totalWord = arr.filter(word => word !== '').length
+        setWordCount(totalWord);
     }
 
 
@@ -17,7 +23,7 @@ function Container() {
         <main className="container">
             <Menu />
             <TextArea handleCount={handleCount} />
-            <Count count={count} />
+            <Count count={count} wordCount={wordCount} />
         </main>
     )
 }
