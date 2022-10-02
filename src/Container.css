@@ -1,4 +1,4 @@
-.container{
+.container {
           height: auto;
           width: 70rem;
           display: flex;
@@ -8,4 +8,5 @@
           margin: auto;
           padding: 10px;
           background: #a5d3ff;
+          border-radius: 1em;
 }
