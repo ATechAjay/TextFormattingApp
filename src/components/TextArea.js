@@ -1,21 +1,11 @@
 import "./TextArea.css"
-import { useState } from "react"
+function TextArea(props) {
 
-function TextArea() {
-          const [count, setCount] = useState(0);
-          // setCount("Hello")
-
-          let countChar = (event) => {
-                    setCount(event.target.value.length);
-          }
-
-          console.log(count);
-
-          return (
-                    // <div className="textArea" contenteditable="true">
-                    <textarea className="textArea" placeholder="Paste here..." onChange={countChar}>
-                    </textarea>
-          )
+    return (
+        // <div className="textArea" contenteditable="true">
+        <textarea className="textArea" placeholder="Paste here..." onChange={(e) => props.handleCount(e)}>
+        </textarea>
+    )
 }
 
 export default TextArea;
