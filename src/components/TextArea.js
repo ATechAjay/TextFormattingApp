@@ -2,15 +2,15 @@ import "./TextArea.css"
 
 
 function TextArea() {
-    // function letterCount() {
-    //           console.log("Hello")
-    // }
-    return (
-        // <div className="textArea" contenteditable="true">
-        <textarea className="textArea">
+          // function letterCount() {
+          //           console.log("Hello")
+          // }
+          return (
+                    // <div className="textArea" contenteditable="true">
+                    <textarea className="textArea" placeholder="Paste here...">
 
-        </textarea>
-    )
+                    </textarea>
+          )
 }
 
 export default TextArea;

@@ -10,7 +10,7 @@
 .verticalLine {
           position: absolute;
           height: 100%;
-          width: 4px;
+          width: 2px;
           background: #ffffff;
           top: 0;
           left: 50%;
@@ -20,11 +20,11 @@
 .countContainer div {
           font-size: 3rem;
           padding: 0 40px;
-
+          
 }
 
 
-.countContainer div p span {
-          font-weight: bold;
+.countContainer div p span{
+       font-weight: bold;
 
 }
