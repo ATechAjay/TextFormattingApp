@@ -7,7 +7,7 @@ import { useState } from "react";
 
 
 function Container() {
-    const [count, setCount] = useState(0);
+    const [letterCount, setCount] = useState(0);
     const [wordCount, setWordCount] = useState(0);
 
     const handleCount = (event) => {
@@ -23,7 +23,7 @@ function Container() {
         <main className="container">
             <Menu />
             <TextArea handleCount={handleCount} />
-            <Count count={count} wordCount={wordCount} />
+            <Count letterCount={letterCount} wordCount={wordCount} />
         </main>
     )
 }

@@ -10,7 +10,7 @@ function Count(props) {
             </div>
             <span className="verticalLine"></span>
             <div className="letterCountContainer">
-                <p>Letters: <span className="wordCountNumber">{props.count}</span></p>
+                <p>Letters: <span className="letterCountNumber">{props.letterCount}</span></p>
             </div>
         </div>
     )
