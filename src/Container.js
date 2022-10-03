@@ -11,8 +11,16 @@ function Container() {
     const [wordCount, setWordCount] = useState(0);
 
     const handleCount = (event) => {
+        // letter count implementation
         setCount(event.target.value.length);
+
+        // Word count implementation
         let str = event.target.value;
+        // \n is used for the newline or linefeed, whereas \r is the carriage return.
+        str = str.replace(/\r\n?|\n/g, ' ')
+            .replace(/ {2,}/g, ' ')
+            .replace(/^ /, '')
+            .replace(/ $/, '');
         let arr = str.split(' ');
         let totalWord = arr.filter(word => word !== '').length
         setWordCount(totalWord);
