@@ -1,6 +1,6 @@
 
 import "./Container.css"
-import Menu from "../src/components/Menu";
+// import Menu from "../src/components/Menu";
 import TextArea from "./components/TextArea";
 import Count from "./components/Count";
 import { useState } from "react";
@@ -29,7 +29,6 @@ function Container() {
 
     return (
         <main className="container">
-            <Menu />
             <TextArea handleCount={handleCount} />
             <Count letterCount={letterCount} wordCount={wordCount} />
         </main>

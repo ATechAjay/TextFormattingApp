@@ -1,12 +1,12 @@
 .container {
-    height: auto;
-    width: 70rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    margin: auto;
-    padding: 10px;
-    background: #a5d3ff;
-    border-radius: 1em;
+  height: auto;
+  width: 70rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+  padding: 10px;
+  /* background: #a5d3ff; */
+  border-radius: 1em;
 }

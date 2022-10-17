@@ -1,30 +1,35 @@
 ::-webkit-scrollbar {
-    cursor: pointer;
-    width: 10px;
-    /* background: #a5d3ff; */
-    border-radius: 1000px;
+  cursor: pointer;
+  width: 10px;
+  /* background: #a5d3ff; */
+  border-radius: 1000px;
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #1e90ff;
-    border-radius: 1000px;
+  background: #1e90ff;
+  border-radius: 1000px;
 }
 
-
-
 .textArea {
-    padding: 1rem;
-    outline: 0;
-    border: none;
-    font-size: 2rem;
-    font-family: consolas;
-    width: 100%;
-    height: 400px;
-    background: #a5d3ff;
-    outline: 0;
-    overflow-y: auto;
-    overflow-x: hidden;
-    color: #000;
-    max-width: 70rem;
-    resize: none;
+  padding: 1rem;
+  outline: 0;
+  border: none;
+  font-size: 2rem;
+  font-family: consolas;
+  width: 100%;
+  height: 400px;
+  /* background: #a5d3ff; */
+  outline: 0;
+  /* overflow-y: auto;
+    overflow-x: hidden; */
+  color: #000;
+  max-width: 70rem;
+  resize: none;
+}
+
+.ql-toolbar {
+  /* background: rgba(30, 143, 255, 0.723); */
+  background: dodgerblue;
+  border: none;
+  outline: 0;
 }
