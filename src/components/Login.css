@@ -1,0 +1,19 @@
+.loginBtn {
+  box-shadow: 0 0 0 3px rgb(0, 0, 0);
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  border-radius: 100px;
+  color: rgb(0, 0, 0);
+  padding: 1rem 2rem;
+  font-size: 1.8rem;
+  text-decoration: none;
+  position: absolute;
+  top: 1rem;
+  right: 3rem;
+  transition: all 0.1s;
+}
+
+.loginBtn:hover {
+  background: #00eeff;
+  box-shadow: 0 0 0 0 rgb(0, 0, 0);
+}

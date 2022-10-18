@@ -11,7 +11,7 @@
 }
 
 .textArea {
-  padding: 1rem;
+  /* padding: 1rem; */
   outline: 0;
   border: none;
   font-size: 2rem;
@@ -29,7 +29,7 @@
 
 .ql-toolbar {
   /* background: rgba(30, 143, 255, 0.723); */
-  background: dodgerblue;
+  background: #00eeff;
   border: none;
   outline: 0;
 }
