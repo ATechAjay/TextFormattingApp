@@ -48,11 +48,11 @@ function TextArea(props) {
     },
     [quill]
   );
-  console.log(value, "TTTTT");
+  // console.log(value, "TTTTT");
   return (
     // <div className="textArea" style={{ width: 500, height: 400 }}>
-    <div className="textArea">
-      <div ref={quillRef} onChange={(e) => props.handleCount(e)} />
+    <div className='textArea'>
+      <div ref={quillRef} onBlur={(e) => props.handleCount(e)}></div>
     </div>
   );
 }
